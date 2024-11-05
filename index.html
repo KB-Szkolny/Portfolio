@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kacper Bachul - Portfolio</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+        $(function() {
+            $(".accordion").accordion({
+                collapsible: true,
+                active: false,
+                heightStyle: "content"
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Kacper Bachul</h1>
+    <p>Witaj w moim portfolio, znajdą się tutaj rzeczy stworzone przez mnie.</p>
+    <a href="https://twitch.tv/" target="_blank"><img src="img/twitch.png" alt="Twitch"></a>
+    <a href="https://x.com/" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+    <a href="https://pl.linkedin.com/" target="_blank"><img src="img/linkdin.png" alt="Linkedin"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="Youtube"></a>
+</header>
+
+<div class="accordion">
+    <h3>Strona o grze Valorant</h3>
+    <div>
+        <p>Prosta strona o grze Valorant opisująca wszystkie najważniesze rzeczy na dzień 8 maja 2022. Zawierała wszystkie dostępne na tamten moment informacje na temat map, agentów i trybów gry. <a href="https://github.com/KB-Szkolny/StronaValorant" target="_blank">Repozytorium GitHub</a></p>
+    </div>
+    <h3>Konsolowa gra RPG</h3>
+    <div>
+        <p>Prosta konsolowa gra RPG w Pythonie pozwalająca walczyć z przeciwnikami. Można atakować, bronić się, kupować rzeczy i uciekać. <a href="https://github.com/KB-Szkolny/Konsolowa-Gra-RPG" target="_blank">Repozytorium GitHub</a></p>
+    </div>
+    <h3>Snake w C++</h3>
+    <div>
+        <p>Prosta gra konsolowa napisana w C++. Pozwala wybrać długość i szerokość planszy, a następnie chodzić małym "wężem" i jeść gwiazdki które są liczone. <a href="https://github.com/KB-Szkolny/Snake-w-C-plus-plus" target="_blank">Repozytorium GitHub</a></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kacper Bachul. Wszystkie prawa zastrzeżone.</p>
+    <a class="tlo" href="https://whvn.cc/l8vp7y" target="_blank">Zdjęcie w tle</a>
+</footer>
+</body>
+</html>
